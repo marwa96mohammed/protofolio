@@ -1,0 +1,171 @@
+/* start main rulze*/
+body
+ {
+     background:#DDD;
+     direction: ltr;
+     font-family: 'Dhyana', sans-serif;
+}
+.container
+{
+ width: 940px;
+ margin:20px auto; /*to be in the center of page*/
+ background: #FFF;
+}
+ul, li
+{
+    margin:0;
+    padding:0;
+    list-style: none;
+    
+
+}
+/* end main rulze*/
+
+/* start header*/
+header
+{
+    min-height: 100px;
+    background:white;
+    overflow: hidden;
+}
+header.logo
+{
+    width: 20%; /*used % cause if i increase the container it will increase the logo */ 
+    float:left;
+}
+header .logo img
+{
+ width :80px;
+ margin:20px 20px  0;
+}
+header nav
+{
+    width: 80%; /*used % cause if i increase the container it will increase the nav */ 
+    float:right;
+
+}
+header nav ul 
+{
+    margin:0 50px 50px 0 ;
+    font-weight: bold;
+    font-size:20px;
+    
+}
+
+  a:hover
+  {background-color: lightblue;
+}
+a {
+     text-decoration: none;
+}
+header nav ul li
+{
+    display:inline;
+    padding:20px;
+    margin:10px;
+
+
+}
+/* end header*/
+
+/* start content*/
+.content
+{
+    min-height:500px ;
+    background:lightgray;
+    overflow:hidden;/*عشان مايطلع الكلام خارج البوكس مهما عملنا زوم */
+
+}
+.content .sidebar
+{
+    float:left;
+    width:20%;
+    margin-right: 1%;
+}
+.content .sidebar .types
+{
+  width:90%;
+  background: lightblue;
+  border: 1px solid black;
+  margin:10px auto
+
+}
+.content .sidebar .types .title
+{
+    background-color:black;
+    color:white;
+    padding: 5px 0;
+    margin:0 0 5px ;
+    text-align: center;
+}
+
+.content .sidebar .types .data ul
+{
+    padding-left: 10px;
+
+}
+.content .sidebar .types .data ul li
+{
+    padding: 8px;
+}
+.content .products
+{
+    float:right;
+    width:79%;
+
+}
+.content .products .mobiles
+{
+    width :31%;
+    margin-left:2% ;
+    margin-top:10px;
+    margin-bottom: 10px;;
+    float:left;
+    background:rgb(102, 136, 102);
+    text-align: center;
+    overflow: hidden;
+    font-size: bold;
+
+}
+.content .products .mobiles img
+{
+    max-width: 100%;
+   
+}
+/* end content */
+
+/* start footer*/
+footer
+{
+    min-height:100px; /*عشان كلما كبرنا الزوم يكبر  الذسي داخ الفوتر كلهم*/
+    background: #ccc;
+}
+footer .info
+{
+    height:100px;
+    background:gray;
+    text-align: center;
+    padding: 5px 0
+    
+    
+}
+/* for icons*/
+.fab
+{
+    color: blue;
+    font-size: 30px;
+    margin-top: 10px;
+
+}
+.fab:hover
+{
+    color: rgb(65, 33, 33);
+    font-size: 50px
+}
+
+footer .copyright
+{
+    background:#333;
+    text-align: center;
+}
+/* end footer*/
